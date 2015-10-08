@@ -1,0 +1,53 @@
+<resources>
+    <string name="api_base_url">http://api.themoviedb.org/3/movie/</string>
+    <string name="api_param_page">page</string>
+    <string name="api_param_key">api_key</string>
+    <string name="api_key">API KEY</string>    <!-- Remove for legal purposes -->
+
+    <string name="app_name">PopularMovies</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="loading">loading&#8230;</string>
+    <string name="poster_default_size">w154</string>
+
+    <string name="pref_sorting_key">sort_by</string>
+    <string name="pref_sorting_default">popularity.desc</string>
+
+    <string name="pref_sorting_label">Sort by</string>
+    <string name="pref_sorting_popular">popularity.desc</string>
+    <string name="pref_sorting_popular_label">Popularity</string>
+
+    <string name="pref_sorting_rating">vote_average.desc</string>
+    <string name="pref_sorting_rating_label">Top Rated</string>
+
+    <string name="pref_sorting_favorites">favorites</string>
+    <string name="pref_sorting_favorites_label">Favorites</string>
+
+    <string name="overview_label">Overview:</string>
+    <string name="reviews_label">Reviews:</string>
+    <string name="trailers_label">Trailers:</string>
+    <string name="votes_label">votes</string>
+
+    <string name="preference_file_key" translatable="false">
+        com.example.android.popularmovies.preferences
+    </string>
+
+    <!-- Default values for missing data in API calls responses -->
+    <string name="no_original_title_found">ORIGINAL TITLE NOT FOUND</string>
+    <string name="no_overview_found">NO OVERVIEW FOUND</string>
+    <string name="no_author_found">NO AUTHOR FOUND</string>
+    <string name="no_trailer_name_found">NO TRAILER NAME FOUND</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type" translatable="false">popularmovies</string>
+    <string name="content_authority" translatable="false">
+        com.example.android.popularmovies
+    </string>
+
+    <string name="share_movie_base_message">Hi! Check this movie. It looks great!! </string>
+    <string name="share_movie_hashtag" translatable="false">#PopularMoviesApp</string>
+    <string name="sdf_format">yyyy-MM-dd</string>
+
+</resources>
